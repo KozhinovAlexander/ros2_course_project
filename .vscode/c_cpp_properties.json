@@ -1,0 +1,44 @@
+{
+    "env": {
+        "ros2_dir": "/opt/ros/humble"
+    },
+
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "${workspaceFolder}/src/ros2_course_project/turtle_controller/include",
+                "${workspaceFolder}/src/ros2_course_project/turtle_spawner/include",
+                "${ros2_dir}/include",
+                "${ros2_dir}/include/tf2",
+                "${ros2_dir}/include/rclcpp",
+                "${ros2_dir}/include/example_interfaces",
+                "${ros2_dir}/include/std_msgs",
+                "${ros2_dir}/include/rosidl_runtime_cpp",
+                "${ros2_dir}/include/rosidl_runtime_c",
+                "${ros2_dir}/include/rcl",
+                "${ros2_dir}/include/rcutils",
+                "${ros2_dir}/include/rmw",
+                "${ros2_dir}/include/rcl_yaml_param_parser",
+                "${ros2_dir}/include/rosidl_typesupport_interface",
+                "${ros2_dir}/include/rcpputils",
+                "${ros2_dir}/include/builtin_interfaces",
+                "${ros2_dir}/include/tracetools",
+                "${ros2_dir}/include/rcl_interfaces",
+                "${ros2_dir}/include/libstatistics_collector",
+                "${ros2_dir}/include/statistics_msgs",
+                "${ros2_dir}/include/turtlesim",
+                "${ros2_dir}/include/std_srvs",
+                "${ros2_dir}/include/geometry_msgs",
+                "${ros2_dir}/include/catch_them_all_interfaces"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "gnu17",
+            "cppStandard": "gnu++17",
+            "intelliSenseMode": "linux-gcc-x64"
+        }
+    ],
+    "version": 4
+}
